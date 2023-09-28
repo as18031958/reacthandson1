@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); 
+}
+button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: blue;
+    background-color: aqua;
+}
+.Maindiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ClassBox{
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: lime;
+    background-color:blue;
+}
+.FuncBox{
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    color: lime;
+    background-color:blue;
+}
